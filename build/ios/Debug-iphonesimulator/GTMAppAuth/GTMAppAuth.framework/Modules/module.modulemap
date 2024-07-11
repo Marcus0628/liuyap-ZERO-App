@@ -1,0 +1,11 @@
+framework module GTMAppAuth {
+  umbrella header "GTMAppAuth-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module GTMAppAuth.Swift {
+  header "GTMAppAuth-Swift.h"
+  requires objc
+}

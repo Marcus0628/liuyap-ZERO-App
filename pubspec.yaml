@@ -1,0 +1,88 @@
+name: zero
+description: A new Flutter project.
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  get: ^4.4.0
+  get_storage: ^2.1.1
+
+  dots_indicator: ^2.0.0
+  percent_indicator: ^4.2.3
+  
+  image_picker: ^1.0.7
+  file_picker: ^6.1.1
+
+  shared_preferences: ^2.0.9
+  
+  #Icons
+  cupertino_icons: ^1.0.2
+  
+  timeline_tile: ^2.0.0
+  
+  #Google
+  google_maps_flutter: ^2.5.3
+  geocoding: ^2.2.0
+  geolocator: ^11.0.0
+  flutter_google_places: ^0.3.0
+  google_sign_in: ^6.2.1
+  http: ^0.13.6
+  google_maps_webservice: ^0.0.20-nullsafety.5
+  google_api_headers: ^1.6.0
+  json_serializable: ^6.7.1
+  json_annotation: ^4.8.1
+
+  #Firebase
+  firebase_core: ^2.25.5
+  firebase_storage: ^11.6.0
+  cloud_firestore: ^4.15.7
+  firebase_auth: ^4.17.7
+  firebase_database: ^10.4.0
+  firebase_messaging: ^14.7.10
+ 
+  provider: ^5.0.0
+  
+  flutter_rating_bar: ^4.0.1
+  intl: ^0.19.0
+  url_launcher: ^6.2.5
+  numberpicker: ^2.1.2
+  expandable: ^5.0.1
+  smooth_page_indicator: ^1.1.0
+  google_fonts: ^4.0.4
+  flutter_local_notifications: ^17.0.0
+
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons: ^0.13.1
+  build_runner: ^2.4.8
+
+flutter_icons:
+  android: true
+  ios : true
+  image_path: "assets/zero(512).png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/locations.json
+
+  fonts:
+    - family: FjallaOne
+      fonts:
+        - asset: fonts/FjallaOne-Regular.ttf
+    - family: PathwayGothicOne
+      fonts:
+        - asset: fonts/PathwayGothicOne-Regular.ttf
+
